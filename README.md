@@ -32,9 +32,12 @@ Usage 🚀
 Launch the program with root privileges:
 
 sudo ./network_monitor
+
 The default target is set to Google's DNS (8.8.8.8). To monitor a different host, you can modify the targetHost variable in main.cc.
 
+
 Press Ctrl+C to exit the program.
+
 
 Technical Details 🔧
 
