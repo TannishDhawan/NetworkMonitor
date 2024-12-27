@@ -37,6 +37,7 @@ The default target is set to Google's DNS (8.8.8.8). To monitor a different host
 Press Ctrl+C to exit the program.
 
 Technical Details 🔧
+
 Pinger Class: Handles ICMP echo requests/replies
 Metrics Class: Calculates network statistics
 GUI Class: Manages the ncurses-based user interface
