@@ -15,7 +15,7 @@ Round-Trip Time (RTT),
 Average Latency,
 Packet Loss Percentage,
 Network Jitter,
-Clean Terminal UI: Using ncurses for a professional, easy-to-read interface,
+Clean Terminal UI: Using ncurses, easy-to-read interface,
 Low Resource Consumption: Optimized for minimal system impact.
 
 Prerequisites 📋
