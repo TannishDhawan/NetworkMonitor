@@ -11,12 +11,12 @@ Features ⭐
 
 Real-time Ping Monitoring: Continuous ping measurements to specified targets
 Key Performance Metrics:
-Round-Trip Time (RTT)
-Average Latency
-Packet Loss Percentage
-Network Jitter
-Clean Terminal UI: Using ncurses for a professional, easy-to-read interface
-Low Resource Consumption: Optimized for minimal system impact
+Round-Trip Time (RTT),
+Average Latency,
+Packet Loss Percentage,
+Network Jitter,
+Clean Terminal UI: Using ncurses for a professional, easy-to-read interface,
+Low Resource Consumption: Optimized for minimal system impact.
 
 Prerequisites 📋
 
@@ -42,7 +42,11 @@ Press Ctrl+C to exit the program.
 Technical Details 🔧
 
 Pinger Class: Handles ICMP echo requests/replies
+
 Metrics Class: Calculates network statistics
+
 GUI Class: Manages the ncurses-based user interface
+
 Error Handling: Robust error checking for network operations
+
 Performance: Optimized for minimal system resource usage
