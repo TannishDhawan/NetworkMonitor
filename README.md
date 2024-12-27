@@ -8,6 +8,7 @@ Network Monitor is a powerful, real-time network monitoring tool that provides e
 
 
 Features ⭐
+
 Real-time Ping Monitoring: Continuous ping measurements to specified targets
 Key Performance Metrics:
 Round-Trip Time (RTT)
@@ -18,6 +19,7 @@ Clean Terminal UI: Using ncurses for a professional, easy-to-read interface
 Low Resource Consumption: Optimized for minimal system impact
 
 Prerequisites 📋
+
 To build and run Network Monitor, you'll need:
 C++ Compiler (GCC 4.8+ or equivalent)
 Linux-based Operating System
@@ -26,6 +28,7 @@ Root privileges (for ICMP packets)
 
 
 Usage 🚀
+
 Launch the program with root privileges:
 
 sudo ./network_monitor
