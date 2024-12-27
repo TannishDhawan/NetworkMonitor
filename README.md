@@ -21,10 +21,10 @@ Low Resource Consumption: Optimized for minimal system impact
 Prerequisites 📋
 
 To build and run Network Monitor, you'll need:
-C++ Compiler (GCC 4.8+ or equivalent)
-Linux-based Operating System
-NCurses Library
-Root privileges (for ICMP packets)
+C++ Compiler (GCC 4.8+ or equivalent),
+Linux-based Operating System,
+NCurses Library,
+Root privileges (for ICMP packets).
 
 
 Usage 🚀
