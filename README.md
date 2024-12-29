@@ -7,8 +7,9 @@ Network Monitor 🌐
 Overview - Network Monitor is a powerful, real-time network monitoring tool that provides essential metrics for network performance analysis. Built with C++, it offers a clean terminal-based UI and precise measurements of network latency, packet loss, and jitter.
 
 
-How Does It Work 
-The program monitors network performance by repeatedly pinging a target host (e.g., 8.8.8.8 ,which i am using right now ) and calculating metrics like latency, packet loss, and jitter. The Pinger class sends ICMP echo requests and calculates round-trip time (RTT). Results are passed to the Metrics class, which tracks RTT values, computes average latency, packet loss, and jitter. The GUI uses ncurses to display real-time statistics. The main function combines these components into a continuous loop, pinging the target every second and updating the GUI with the latest stats. You can monitor the network in real-time and terminate the program with Ctrl+C.
+How Does It Work -
+
+The program monitors network performance by repeatedly pinging a target host (e.g., 8.8.8.8 ,which i am using right now ) and calculating metrics like latency, packet loss, and jitter. The Pinger class sends ICMP echo requests and calculates round-trip time (RTT). Results are passed to the Metrics class, which tracks RTT values, computes average latency, packet loss, and jitter. The GUI uses ncurses to display real-time statistics. The main function combines these components into a continuous loop, pinging the target every second and updating the GUI with the latest stats. You can now monitor the network in real-time and terminate the program with Ctrl+C.
 
 Features ⭐
 
