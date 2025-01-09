@@ -9,7 +9,7 @@ Overview - Network Monitor is a powerful, real-time network monitoring tool that
 
 How Does It Work -
 
-The program monitors network performance by repeatedly pinging a target host (e.g., 8.8.8.8 ,which i am using right now ) and calculating metrics like latency, packet loss, and jitter. The Pinger class sends ICMP echo requests and calculates round-trip time (RTT). Results are passed to the Metrics class, which tracks RTT values, computes average latency, packet loss, and jitter. The GUI uses ncurses to display real-time statistics. The main function combines these components into a continuous loop, pinging the target every second and updating the GUI with the latest stats. You can now monitor the network in real-time and terminate the program with Ctrl+C.
+The program monitors network performance by repeatedly pinging a target host (e.g., 8.8.8.8 ,which i am using right now ) and calculating metrics like latency, packet loss, and jitter. The Pinger class sends ICMP echo requests and calculates round-trip time (RTT). Results are passed to the Metrics class, which tracks RTT values, computes average latency, packet loss, and jitter. The GUI uses ncurses to display real-time statistics. The main function combines these components into a continuous loop, pinging the target every second and updating the GUI with the latest stats. You can now monitor the network in real-time and terminate the program with Ctrl+C.Moreover you can see the Last 5 records value in the terminal after pressing Ctrl+C .The reason you don't see the "Last 5 records" output the very first time you run your program after compiling is because the database file doesn't exist yet.
 
 Features ⭐
 
